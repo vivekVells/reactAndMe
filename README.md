@@ -6,3 +6,4 @@ react package - small package (2KB) - used for how to interact with react
 react dom - large package - that uses react package and renders them into the browser
 react native - that uses react package and load them into android and ios app 
 
+composability model with React - components inside components inside components .... 
