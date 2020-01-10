@@ -20,6 +20,7 @@ composability model with React - components inside components inside components 
     - npm init -y: to view just initialize the npm package manager to the project with default args
     - npm install or npm i:
         - npm install -D <package_name>: to install dependencies only in development mode. these dependencies will not be available in production.
+- npm i -D parcel-bundler: to install parcel bundler to bundle every code together. just point the index.html and parcel bundler smartly figures out every type of the files (html, css, js, etc...) and bundles them together. 
 
 ### Packages
 - Prettier - format project consistently. standardizes the format usage. 
