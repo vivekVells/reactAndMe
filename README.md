@@ -24,3 +24,6 @@ composability model with React - components inside components inside components 
 ### Packages
 - Prettier - format project consistently. standardizes the format usage. 
     - shortcut: in vscode -> Shift + Option + F
+    - under "scripts":
+        - "format": "prettier 'src/**/*/.{js, html}' --write"
+            - --write writes the format prettiered code to all unformatted code of .js or .html.
