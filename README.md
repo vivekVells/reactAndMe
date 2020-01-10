@@ -39,3 +39,6 @@ composability model with React - components inside components inside components 
     - The package.json is used for more dependencies - like defining project properties, description, author & license information, scripts, etc. The package-lock.json is solely used to lock dependencies to a specific version number.
     - `npm run ci` will be command to install package dependencies from package-lock.json file. 
     - `npm install` will install all latest package dependencies from package.json file.
+
+### Interesting
+- React is like 32 KiloBytes
