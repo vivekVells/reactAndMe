@@ -8,7 +8,7 @@
 
 composability model with React - components inside components inside components .... 
 
-### Commands Info:
+### Commands Insights:
 - React.render(React.createElement(<func>), document.getElementById(<elementID>)) 
     - e.g -> 
         - code:
@@ -16,3 +16,11 @@ composability model with React - components inside components inside components 
             -  ReactDOM.render("override div content", document.getElementById("root"));
         - when this gets executed in browser: the `content inside div element` will be overriden and the page displays as `override div content`
             - ReactDOM.render just overwrites anything inside the element identifier  
+- npm
+    - npm init -y: to view just initialize the npm package manager to the project with default args
+    - npm install or npm i:
+        - npm install -D <package_name>: to install dependencies only in development mode. these dependencies will not be available in production.
+
+### Packages
+- Prettier - format project consistently. standardizes the format usage. 
+    - shortcut: in vscode -> Shift + Option + F
