@@ -27,3 +27,14 @@ composability model with React - components inside components inside components 
     - under "scripts":
         - "format": "prettier 'src/**/*/.{js, html}' --write"
             - --write writes the format prettiered code to all unformatted code of .js or .html.
+
+### Questions
+- prettier vs eslint: 
+    - Prettier takes care of your code formatting, ESLint takes care of your code style (syntax checkings & code quality).
+    - example:
+        - prettier: Formatting rules: eg: max-len, no-mixed-spaces-and-tabs, keyword-spacing, comma-style...
+        - eslint: Code-quality rules: eg no-unused-vars, no-extra-bind, no-implicit-globals, prefer-promise-reject-errors...
+- package.json vs package-lock.json:
+    - The package.json is used for more dependencies - like defining project properties, description, author & license information, scripts, etc. The package-lock.json is solely used to lock dependencies to a specific version number.
+    - `npm run ci` will be command to install package dependencies from package-lock.json file. 
+    - `npm install` will install all latest package dependencies from package.json file.
