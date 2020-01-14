@@ -6,7 +6,10 @@
 - react dom - large package - that uses react package and renders them into the browser
 - react native - that uses react package and load them into android and ios app 
 
-composability model with React - components inside components inside components .... 
+- composability model with React - components inside components inside components .... 
+
+
+- .jsx or JSX: to mimic html markup by writing javascript
 
 ### Commands Insights:
 - React.render(React.createElement(<func>), document.getElementById(<elementID>)) 
