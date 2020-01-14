@@ -1,12 +1,21 @@
 {
-  // sets of rules to use
-  // be as opinionated as you want\
-  "extends": ["eslint:recommended", "prettier", "prettier/react"],
-  // any plugin config
-  "plugins": [],
-  // parser config
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "no-console": "warn"
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
   "parserOptions": {
-    // import and export - such modules
+    "ecmaVersion": 2018,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -16,5 +25,10 @@
     "es6": true,
     "browser": true,
     "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
